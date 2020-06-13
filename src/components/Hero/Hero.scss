@@ -1,0 +1,74 @@
+.hero {
+  background-color: var(--mainBlack);
+  height: 70vh;
+  padding-top: 150px;
+  text-align: center;
+  width: 100vw;
+  .particle {
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    z-index: 500;
+  }
+  .hero-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+    .text-title {
+      animation: topIn 1s ease-out 0.5s;
+      -webkit-animation: topIn 1s ease-out 0.5s;
+      animation-delay: 0s;
+      color: var(--primaryColor);
+      h1 {
+        margin: 0;
+        font-size: 60px;
+        @media (max-width: 414px) {
+          font-size: 40px;
+        }
+      }
+      p {
+        margin: 60px;
+        color: var(--mainGrey);
+        font-size: 40px;
+        text-align: center;
+        line-height: 40px;
+        @media (max-width: 414px) {
+          font-size: 30px;
+        }
+      }
+    }
+    .typed {
+      animation: leftIn 1s ease-out 0.5s;
+      -webkit-animation: leftIn 1s ease-out 0.5s;
+      animation-delay: 0s;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      padding: 10vh 0;
+      @media (max-width: 414px) {
+        font-size: 20px;
+      }
+    }
+    .social-icons {
+      animation: rightIn 1s ease-out 0.5s;
+      -webkit-animation: rightIn 1s ease-out 0.5s;
+      animation-delay: 0s;
+      z-index: 1000;
+      a {
+        color: white;
+        display: inline-block;
+        font-size: 50px;
+        padding: 0 30px;
+        text-decoration: none;
+        @media (max-width: 414px) {
+          font-size: 40px;
+        }
+      }
+      a:hover {
+        color: var(--primaryColor);
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+:root {
+  --primaryColor: rgb(25, 195, 238);
+  --mainGrey: #ededed;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes leftIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes rightIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  80% {
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes topIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
-
-@keyframes App-logo-spin {
+@keyframes shine {
   from {
-    transform: rotate(0deg);
+    mask-position: 150%;
   }
   to {
-    transform: rotate(360deg);
+    mask-position: -50%;
   }
 }
