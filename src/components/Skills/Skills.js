@@ -17,6 +17,9 @@ const Skills = () => {
     <section id="skills">
       <div className="heading">
         <h1>ABOUT ME</h1>
+
+        <img src="../images/mine.jpg" alt="Dep joti Ghosh"></img>
+
         <p data-aos="zoom-in">
           I code everyday and try to add more technologies to my stack below.
         </p>

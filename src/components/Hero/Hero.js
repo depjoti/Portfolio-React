@@ -39,10 +39,10 @@ class Hero extends Component {
           <Particles params={params} className="particle" />
           <div className="hero-container">
             <div className="text-title">
-              <h1>I am Dep Joti Ghosh</h1>
+              <h1>Dep Joti Ghosh</h1>
               <p>
-                I'm a Full Stack Front-End Focused Developer. Who enjoy to build
-                and testing web related tools
+                I'm a Full Stack Developer. Who enjoys to play and testing with
+                web related tools.
               </p>
             </div>
             {/* <Typed
