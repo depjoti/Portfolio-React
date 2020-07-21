@@ -21,7 +21,11 @@ const Skills = () => {
         <img src="../images/mine.jpg" alt="Dep joti Ghosh"></img>
 
         <p data-aos="zoom-in">
-          I code everyday and try to add more technologies to my stack below.
+          I hold a B.Sc degree in Computer Science & Engineering from BAIUST,
+          Cumilla Cantonment. I'm a Full Stack focused Frontend Engineer with an
+          avid interest in Data Structures, Algorithms and Optimization. As a
+          core programmer, I love taking challenges and love being part of the
+          solution.
         </p>
       </div>
 
