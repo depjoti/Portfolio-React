@@ -21,7 +21,7 @@ class NavBar extends Component {
             <a href="#projects">Projects</a>
             <a href="#contact">Contact Me</a>
             <a
-              href="https://drive.google.com/file/d/1gOC1ziyBdD0iCWUsS9dn0Wrq4uKaTrXG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1brprWy-xBor0LeFecD2f-nbbM4JIYfo9/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +45,7 @@ class NavBar extends Component {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1gOC1ziyBdD0iCWUsS9dn0Wrq4uKaTrXG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1brprWy-xBor0LeFecD2f-nbbM4JIYfo9/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
