@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import { useEffect } from 'react';
 import './App.css';
 import Aos from 'aos';
