@@ -13,7 +13,7 @@ const Skills = () => {
         <section id="skills">
             <div className="heading">
                 <h1>ABOUT ME</h1>
-                <img src="../images/mine.jpg" alt="my picture"></img>
+                <img src="../images/mine.jpg" alt="depjoti"></img>
                 <p data-aos="zoom-in">
                     I hold a B.Sc degree in Computer Science & Engineering from BAIUST,
                     Cumilla Cantonment. I'm a Full Stack focused Frontend Engineer with an
