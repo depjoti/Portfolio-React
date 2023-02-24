@@ -3,7 +3,7 @@
 const projects = [
     {
         id: 21,
-        tittle: "Movies Application",
+        tittle: "Movies-Application",
         img: "movies.PNG",
         description: "Movies Application project is an online mock of movie searching site where you can search movie from external API",
         type: ["../../images/icons/js.svg", "../../images/icons/react.svg", "../../images/icons/tailwind-css.svg"],
@@ -12,7 +12,7 @@ const projects = [
     },
     {
         id: 20,
-        tittle: "Job Tracking Application",
+        tittle: "Job-Tracking-Application",
         img: "job tracking.PNG",
         description: "Job Tracking App project is an online mock of job searching site where you can serach for various job.You can also track how many jobs you applied for and their progress",
         type: ["../../images/icons/js.svg", "../../images/icons/react.svg", "../../images/icons/redux.svg"],
