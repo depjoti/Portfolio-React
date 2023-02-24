@@ -18,7 +18,7 @@ const Navbar = () => {
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact Me</a>
                     <a
-                        href="https://drive.google.com/file/d/1vavmGXFXybEZi4raZbZ03K0rt4VIgd4_/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1g6pR1MCne0mrOrIvm6b7hnM02TmtiD61/view?usp=share_link"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -42,7 +42,7 @@ const Navbar = () => {
                         Contact Me
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1vavmGXFXybEZi4raZbZ03K0rt4VIgd4_/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1g6pR1MCne0mrOrIvm6b7hnM02TmtiD61/view?usp=share_link"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

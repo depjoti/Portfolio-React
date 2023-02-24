@@ -8,6 +8,7 @@ import {
     FaBootstrap
 } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+import { SiTailwindcss, SiRedux } from "react-icons/si"
 const Skills = () => {
     return (
         <section id="skills">
@@ -30,7 +31,9 @@ const Skills = () => {
                 <FaCss3 className="icon" title="CSS3" />
                 <FaJs className="icon" title="JavaScript" />
                 <FaReact className="icon" title="React.js" />
+                <SiRedux className="icon" title="Redux-toolkit" />
                 <FaBootstrap className="icon" title="BootStrap" />
+                <SiTailwindcss className="icon" title="TailwindCSS" />
                 <FaNode className="icon" title="Node.js" />
                 <DiMongodb className="icon" title="MongoDB" />
             </div>
